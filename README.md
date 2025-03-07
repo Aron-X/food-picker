@@ -15,6 +15,8 @@
 
 访问 [今天吃什么](https://food-picker-aron.vercel.app) 立即体验！
 
+最新部署地址：[Food Picker GitHub](https://food-picker-github-f7mtz0pwc-arons-projects-436111c9.vercel.app)
+
 ## 技术栈
 
 - React + TypeScript
@@ -52,6 +54,24 @@ npm run build
 3. 点击 "New Project"，然后导入你的 GitHub 仓库
 4. 保持默认设置，点击 "Deploy"
 5. 部署完成后，Vercel 会提供一个可访问的 URL
+
+#### 命令行部署（推荐）
+
+你也可以使用 Vercel CLI 进行部署：
+
+```bash
+# 全局安装 Vercel CLI
+npm install -g vercel
+
+# 登录 Vercel
+vercel login
+
+# 部署项目（在项目根目录下执行）
+vercel
+
+# 部署到生产环境
+vercel --prod
+```
 
 ### Netlify 部署
 

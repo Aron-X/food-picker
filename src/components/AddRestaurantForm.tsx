@@ -24,7 +24,6 @@ import {
 
 const { Title } = Typography
 const { Option } = Select
-const { TextArea } = Input
 
 interface AddRestaurantFormProps {
   onAdd: (restaurant: Omit<Restaurant, "id" | "isUserAdded">) => void

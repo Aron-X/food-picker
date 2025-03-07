@@ -72,8 +72,7 @@ function App() {
   const [locationLoading, setLocationLoading] = useState(false)
   const [initialLoading, setInitialLoading] = useState(true)
   const [dataSource, setDataSource] = useState<"mock" | "meituan">("meituan")
-  const [notificationApi, contextHolderNotification] =
-    notification.useNotification()
+  const [_, contextHolderNotification] = notification.useNotification()
 
   // 初始化数据
   useEffect(() => {
